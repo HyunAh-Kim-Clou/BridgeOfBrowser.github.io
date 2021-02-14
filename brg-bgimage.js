@@ -9,8 +9,9 @@ function paintImage(imgno) {
     // body.prepend(image);
 
     // https://developer.mozilla.org/en-US/docs/Web/CSS/background
+    // no-repeat top/100% 
     const image_src = `sunflower/${imgno + 1}.jpg`;
-    body.style = `background: no-repeat top/100% url(${image_src});`;
+    body.style = `background-image: url(${image_src});`;
 }
 
 // random [0, IMG_LEN]

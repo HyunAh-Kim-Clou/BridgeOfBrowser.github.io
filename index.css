@@ -5,6 +5,11 @@ body {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     animation: fadeIn 0.3s linear;
+    /* https://www.agernic.com/css-tutorial/css-background-image-size-to-fit-screen.html */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 @keyframes fadeIn {
     from {
