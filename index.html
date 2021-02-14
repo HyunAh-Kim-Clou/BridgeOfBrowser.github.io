@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bridge of browser</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <!-- input User name -->
+        <form class="brg-form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="brg-greeting"></h4>
+
+        <!-- Weather -->
+        <h2 class="brg-weather"></h2>
+
+
+        <div class="brg-rightpanel">
+            <!-- Clock -->
+            <span class="brg-today"></span>
+            <div class="brg-clock">
+            </div>
+
+            <!-- To do list -->
+            <div class="block-todo">
+                <form class="brg-todoform">
+                    <input type="text" placeholder="Write a To do" />
+                </form>
+                <br/>
+                <ul class="brg-todolist"></ul>
+            </div>
+        </div>
+
+
+        <!-- JS files -->
+        <script src="brg-clock.js"></script>
+        <script src="brg-userinfo.js"></script>
+        <script src="brg-weather.js"></script>
+        <script src="brg-todo.js"></script>
+        <script src="brg-bgimage.js"></script>
+    </body>
+</html>
