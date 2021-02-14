@@ -19,3 +19,4 @@ You can see..
  
  If you terminate your web page, web page can be remember your data.
  Because It use your local storage on your computer.
+
