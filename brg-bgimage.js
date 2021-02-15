@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_LEN = 18;  // image파일 갯수
+const IMG_LEN = 14;  // image파일 갯수
 
 function paintImage(imgno) {
     // const image = new Image();

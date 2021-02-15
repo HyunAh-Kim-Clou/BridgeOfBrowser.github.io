@@ -12,29 +12,38 @@
         </form>
         <h4 class="brg-greeting"></h4>
 
+        <!-- Pin list -->
+        <ul class="brg-pinlist" ></ul>
+
         <!-- Weather -->
         <h2 class="brg-weather"></h2>
 
 
         <div class="brg-rightpanel">
-            <!-- Clock -->
-            <span class="brg-today"></span>
-            <div class="brg-clock">
-            </div>
+            <div class="tmp">
+                <!-- Clock -->
+                <span class="brg-today"></span>
+                <div class="brg-clock">
+                </div>
+                <button class="brg-pinpoint">
+                    <img width="60" height="60" src="icon/Pinpoint.png"/>
+                </button>
 
-            <!-- To do list -->
-            <div class="block-todo">
-                <form class="brg-todoform">
-                    <input type="text" placeholder="Write a To do" />
-                </form>
-                <br/>
-                <ul class="brg-todolist"></ul>
+                <!-- To do list -->
+                <div class="block-todo">
+                    <form class="brg-todoform">
+                        <input type="text" placeholder="Write a To do" />
+                    </form>
+                    <br/>
+                    <ul class="brg-todolist"></ul>
+                </div>
             </div>
         </div>
 
 
         <!-- JS files -->
         <script src="brg-clock.js"></script>
+        <script src="brg-pinpoint.js"></script>
         <script src="brg-userinfo.js"></script>
         <script src="brg-weather.js"></script>
         <script src="brg-todo.js"></script>

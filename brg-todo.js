@@ -5,6 +5,7 @@ const todoform = document.querySelector(".brg-todoform"),
 const IDPROV_LS = "idProvider"
 const TODOS_LS = "todos";
 const ITEMS_CN = "brg-todoitem";
+const image_src = `icon/TodoCancel.png`;
 let todos = [];
 let id_appointer = 1;
 
@@ -31,7 +32,6 @@ function addTodo(text, todoid) {
     li.id = todoid;
     span.innerText = text;
     // delBtn.innerText = "❌";
-    const image_src = `icon/TodoCancel.png`;
     delBtn.innerHTML = `<img width="20" height="20" src="${image_src}"/>`;
     delBtn.addEventListener("click", deleteTodo);
 

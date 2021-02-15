@@ -37,29 +37,43 @@ input {
     font-size: 20px;
 }
 
-
 .brg-form {
     width: 300px;
     position: absolute;
     left: 5%;
-    top: 40%;
+    top: 25%;
 }
 .brg-greeting {
     font-size: 45px;
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 25%;
 }
 .removing {
     visibility: collapse;
 }
 
+.brg-pinlist {
+    list-style-type: none;
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
+
 .brg-weather {
-    font-size: 17px;
+    font-size: 18px;
     position: absolute;
     left: 5%;
-    bottom: 3%;
+    bottom: 10%;
 }
+
+
 
 .brg-rightpanel {
     width: 50%;
@@ -70,26 +84,34 @@ input {
     background-color: #494841AA;
 }
 
+.brg-today {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+
 .brg-clock {
     font-size: 80px;
     position: absolute;
     right: 40%;
-    top: 10%;
+    top: 13%;
 }
-.brg-today {
+.brg-pinpoint {
     position: absolute;
-    right: 10%;
-    top: 5%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
-    font-size: 19px;
+    right: 25%;
+    top: 16%;
+    border: none; 
+    background-color: #FFFFFF00;
 }
 
 .block-todo {
     width: 400px;
     position: absolute;
     right: 20%;
-    top: 27%;
+    top: 32%;
 }
 .brg-todolist {
     list-style-type: none;
